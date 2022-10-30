@@ -10,7 +10,6 @@ class RandomWords extends StatefulWidget {
 
 // RandomWordsState state -> internal state dari RandomWords Classes/States
 // kenapa gk ada super? karena ini didalam class RandomWords(sebagai body(di MyApp))
-
 // builder method untuk menjadikan  dynamic, seperti halnya iterator
 
 class RandomWordsState extends State<RandomWords> {
@@ -20,6 +19,7 @@ class RandomWordsState extends State<RandomWords> {
   // need a place to store our saved word - Literal Wordpair {} MAP
   final _savedWordPairs = <WordPair>{};
 
+// satttt tidur lagi so
   Widget _buildlist() {
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
@@ -107,7 +107,7 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(" this is home"),
+        title: const Text("simple app"),
         actions: <Widget>[
           IconButton(onPressed: _pushSaved, icon: const Icon(Icons.list))
         ],
