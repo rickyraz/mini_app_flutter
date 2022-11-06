@@ -19,7 +19,6 @@ class RandomWordsState extends State<RandomWords> {
   // need a place to store our saved word - Literal Wordpair {} MAP
   final _savedWordPairs = <WordPair>{};
 
-// satttt tidur lagi so
   Widget _buildlist() {
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
